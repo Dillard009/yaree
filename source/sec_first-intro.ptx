@@ -23,7 +23,7 @@
   <subsection xml:id="subsec_another-subsection">
     <title>Another Subsection</title>
     <p>
-      Text with some math: <m>\sin(x) = \cos(x)</m> only for some values of <m>x</m>.
+      Text OKAY THEN BOY with some math: <m>\sin(x) = \cos(x)</m> only for some values of <m>x</m>.
     </p>
   </subsection>
 
