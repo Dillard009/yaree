@@ -1,0 +1,63 @@
+INFO    : PreTeXt-CLI version: 2.7.0
+
+INFO    : PreTeXt project found in `C:\Users\Edudu\Documents\PreTeXt\yaree`.
+WARNING : Using CLI version 2.7.0 but project's `requirements.txt`
+WARNING : is configured to use 0.8.3. Consider either installing
+WARNING : CLI version 0.8.3 or running `pretext init --refresh`
+WARNING : to update `requirements.txt` to match 2.7.0.
+WARNING : Could not find a target 'html', but found a target 'web' with format='html'; using this target.
+INFO    : Building target web
+INFO    : converting Asymptote diagrams from C:\Users\Edudu\Documents\PreTeXt\yaree\source\main.ptx to HTML graphics for placement in C:\Users\Edudu\Documents\PreTeXt\yaree\generated-assets\asymptote with method "AsyMethod.SERVER"
+INFO    : extracting Asymptote diagrams from C:\Users\Edudu\Documents\PreTeXt\yaree\source\main.ptx
+INFO    : string parameters passed to extraction stylesheet: {'publisher': 'C:/Users/Edudu/Documents/PreTeXt/yaree/publication/publication.ptx', 'subtree': 'image-points-in-three-space'}
+INFO    : XSL conversion of C:\Users\Edudu\Documents\PreTeXt\yaree\source\main.ptx by C:\Users\Edudu\.ptx\2.7.0\core\xsl\extract-asymptote.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "figure-points-in-three-space" should be unique, but is authored 3 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+ERROR   : * PTX:ERROR: the @xml:id value "image-points-in-three-space" should be unique, but is authored 3 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+INFO    : successful application of C:\Users\Edudu\.ptx\2.7.0\core\xsl\extract-asymptote.xsl
+INFO    : converting C:\Users\Edudu\AppData\Local\Temp\ptx-dxufexaz\image-points-in-three-space.asy to C:\Users\Edudu\AppData\Local\Temp\ptx-dxufexaz\image-points-in-three-space.html
+INFO    : Removing temporary directory C:\Users\Edudu\AppData\Local\Temp\ptx-dxufexaz
+INFO    : Preparing to build into C:\Users\Edudu\Documents\PreTeXt\yaree\output\web.
+INFO    : discovering source file's directory name: C:\Users\Edudu\Documents\PreTeXt\yaree\source
+INFO    : verifying and expanding input directory: C:\Users\Edudu\Documents\PreTeXt\yaree\source\../generated-assets
+INFO    : input directory expanded to absolute path: C:\Users\Edudu\Documents\PreTeXt\yaree\generated-assets
+INFO    : verifying and expanding input directory: C:\Users\Edudu\Documents\PreTeXt\yaree\source\../assets
+INFO    : input directory expanded to absolute path: C:\Users\Edudu\Documents\PreTeXt\yaree\assets
+INFO    : Runestone Services (via PreTeXt repository): version 7.3.3
+INFO    : Runestone Services (using newer, via online CDN query): version 7.4.1
+INFO    : Using existing Runestone Services located in C:/Users/Edudu/Documents/PreTeXt/yaree/output/web\_static. Delete Runestone files there to force a fresh download.
+INFO    : converting C:\Users\Edudu\Documents\PreTeXt\yaree\source\main.ptx to HTML in C:\Users\Edudu\AppData\Local\Temp\ptx-uuwdsg32
+INFO    : XSL conversion of C:\Users\Edudu\Documents\PreTeXt\yaree\source\main.ptx by C:\Users\Edudu\.ptx\2.7.0\core\xsl\pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+ERROR   : * PTX:ERROR: the @xml:id value "figure-points-in-three-space" should be unique, but is authored 3 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+INFO    : *              located within: "figure-points-in-three-space" (xml:id)
+ERROR   : * PTX:ERROR: the @xml:id value "image-points-in-three-space" should be unique, but is authored 3 times.
+INFO    : *            Results will be unpredictable, and likely incorrect.  Information on the locations follows:
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+INFO    : *              located within: "image-points-in-three-space" (xml:id)
+WARNING : * PTX:DEPRECATE: (2023-08-08) a "website" element with "address" and "name" children has changed.  Continue to use the "website" element as before, but replace the "address" and "name" children with a single "url" element, which is more flexible and reliable.  We will try to honor your intent, but you may prefer your own adjustments. (1 time)
+INFO    : *              located within: "meta_frontmatter" (xml:id)
+INFO    : * --------------
+INFO    : successful application of C:\Users\Edudu\.ptx\2.7.0\core\xsl\pretext-html.xsl
+WARNING : Failed to map codechat path to xml id; codechat will not work.
+INFO    : 
+Success! Run `pretext view` to see the results.
+
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------

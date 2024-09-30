@@ -33,6 +33,93 @@
           </p>
         </solution>
       </example>
+
+      <figure xml:id="igure-points-in-three-space">
+        <caption>Points in <m>\RR^3</m></caption>
+        <image xml:id="imae-points-in-three-space" width="80%">
+          <asymptote> 
+            import graph3;
+            size(200,200,keepAspect=false);
+            usepackage("amsmath");
+            currentprojection=orthographic(1,1,1);
+            limits((-5,-5,-5),(5,5,5));
+            xaxis3("$x$", OutTicks());
+            yaxis3("$y$", OutTicks());
+            zaxis3("$z$", OutTicks());
+            dot(Label("$\begin{pmatrix} 1 \\ 3 \\ 2
+              \end{pmatrix}$",align=Y), (1,3,2));
+            dot(Label("$\begin{pmatrix} -2 \\ -4 \\ 1
+              \end{pmatrix}$",align=X), (-2,-4,1));
+            dot(Label("$\begin{pmatrix} 1 \\ -1 \\ -3
+              \end{pmatrix}$",align=X), (1,-1,-3));
+          </asymptote>
+        </image>
+      </figure>
+
+      <figure xml:id="fgure-points-in-three-space">
+        <caption>Points in <m>\RR^3</m></caption>
+        <image xml:id="image-points-i-three-space" width="80%">
+          <asymptote> 
+            // Riemann surface of z^{1/n}
+                  import graph3;
+                  import palette;
+
+                  int n=3;
+
+                  size(200,300,keepAspect=false);
+
+                  currentprojection=orthographic(dir(60,60));
+                  currentlight=(10,10,5);
+                  triple f(pair t) {return (t.x*cos(t.y),t.x*sin(t.y),t.x^(1/n)*sin(t.y/n));}
+
+                  surface s=surface(f,(0,0),(1,2pi*n),8,16,Spline);
+                  s.colors(palette(s.map(zpart),Rainbow()));
+
+                  draw(s,meshpen=black,render(merge=true));
+          </asymptote>
+        </image>
+      </figure>
+
+      <figure xml:id="figur-points-in-three-space">
+        <caption>Points in <m>\RR^3</m></caption>
+        <image xml:id="mage-points-in-three-space" width="80%">
+          <asymptote> 
+              // Peter Luschny's Condor function
+              // http://www.luschny.de/math/asy/ElCondorYElGamma.html
+
+              import palette;
+              import graph3;
+
+              size(300,300,IgnoreAspect);
+              currentprojection=orthographic(0,-1,0,center=true);
+              currentlight=White;
+              real K=7;
+
+              triple condor(pair t)
+              {
+                real y=t.y;
+                real x=t.x*y;
+                real e=gamma(y+1);
+                real ymx=y-x;
+                real ypx=y+x;
+                real a=gamma((ymx+1)/2);
+                real b=gamma((ymx+2)/2);
+                real c=gamma((ypx+1)/2);
+                real d=gamma((ypx+2)/2);
+                real A=cos(pi*ymx);
+                real B=cos(pi*ypx);
+                return (x,y,log(e)+log(a)*((A-1)/2)+log(b)*((-A-1)/2)+log(c)*((B-1)/2)+
+                        log(d)*((-B-1)/2));
+              }
+
+              surface s=surface(condor,(-1,0),(1,K),16,Spline);
+              s.colors(palette(s.map(zpart),Rainbow()));
+
+              draw(s,render(compression=Low,merge=true));
+          </asymptote>
+        </image>
+      </figure>
+
     </p>
   </subsection>
 
