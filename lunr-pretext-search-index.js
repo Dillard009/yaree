@@ -52,7 +52,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Introduction to First Chapter",
-  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text OKAY THEN BOY with some math: only for some values of .    After the last subsection, you might have a conclusion.   "
+  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text OKAY THEN BOY with some math: only for some values of .  Do this.  And this is the solution.       After the last subsection, you might have a conclusion.   "
+},
+{
+  "id": "subsec_another-subsection-2-4",
+  "level": "2",
+  "url": "sec_first-intro.html#subsec_another-subsection-2-4",
+  "type": "Example",
+  "number": "1.1.1",
+  "title": "",
+  "body": "Do this.  And this is the solution.   "
 },
 {
   "id": "sec_first-examples",
