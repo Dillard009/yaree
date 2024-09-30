@@ -24,6 +24,15 @@
     <title>Another Subsection</title>
     <p>
       Text OKAY THEN BOY with some math: <m>\sin(x) = \cos(x)</m> only for some values of <m>x</m>.
+      <m> Okay then \sin(x) + cos(x) = tan(x)</m> 
+      <example>
+        Do this.
+        <solution>
+          <p>
+            And this is the solution.
+          </p>
+        </solution>
+      </example>
     </p>
   </subsection>
 
