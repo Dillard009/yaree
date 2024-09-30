@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Introduction to First Chapter",
-  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text with some math: only for some values of .    After the last subsection, you might have a conclusion.   "
+  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text OKAY THEN BOY with some math: only for some values of .    After the last subsection, you might have a conclusion.   "
 },
 {
   "id": "sec_first-examples",
@@ -61,7 +61,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Examples",
-  "body": " Examples  Here is an example:    The statement of the example, since it will have a solution. What is the solution?    This is the solution.    Here is another example, but without a solution   This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.   Although the next things are not examples, they give examples of blocks that are not examples. First a theorem.   Theorem Title   This is the statement of the theorem.    And this is its proof.      A corollary that doesn't need a proof.    Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.   Larger Context  Comment to the reader here.   Of course, if you want more information, you might see .  "
+  "body": " Examples  Here is an example:    The statement of the example, since it will have a solution. What is the solution?    This is the solution.     Okay Then Boy asdsadsdasdasda    KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK  oh mai god    Here is another example, but without a solution   This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.   Although the next things are not examples, they give examples of blocks that are not examples. First a theorem.   Theorem Title   This is the statement of the theorem.    And this is its proof.      A corollary that doesn't need a proof.    Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.   Larger Context  Comment to the reader here.   Of course, if you want more information, you might see .  "
 },
 {
   "id": "sec_first-examples-3",
@@ -73,11 +73,29 @@ var ptx_lunr_docs = [
   "body": "  The statement of the example, since it will have a solution. What is the solution?    This is the solution.   "
 },
 {
+  "id": "thm-",
+  "level": "2",
+  "url": "sec_first-examples.html#thm-",
+  "type": "Theorem",
+  "number": "1.2.2",
+  "title": "",
+  "body": " Okay Then Boy asdsadsdasdasda   "
+},
+{
   "id": "sec_first-examples-5",
   "level": "2",
   "url": "sec_first-examples.html#sec_first-examples-5",
   "type": "Example",
-  "number": "1.2.2",
+  "number": "1.2.3",
+  "title": "",
+  "body": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK  oh mai god   "
+},
+{
+  "id": "sec_first-examples-7",
+  "level": "2",
+  "url": "sec_first-examples.html#sec_first-examples-7",
+  "type": "Example",
+  "number": "1.2.4",
   "title": "",
   "body": " This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.  "
 },
@@ -86,7 +104,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-examples.html#thm_first-examples-theorem",
   "type": "Theorem",
-  "number": "1.2.3",
+  "number": "1.2.5",
   "title": "Theorem Title.",
   "body": " Theorem Title   This is the statement of the theorem.    And this is its proof.   "
 },
@@ -95,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-examples.html#cor_first-examples-corollary",
   "type": "Corollary",
-  "number": "1.2.4",
+  "number": "1.2.6",
   "title": "",
   "body": "  A corollary that doesn't need a proof.   "
 },
@@ -104,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-examples.html#remark_first-examples-context",
   "type": "Remark",
-  "number": "1.2.5",
+  "number": "1.2.7",
   "title": "Larger Context.",
   "body": " Larger Context  Comment to the reader here.  "
 },
