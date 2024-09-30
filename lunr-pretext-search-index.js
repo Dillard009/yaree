@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Introduction to First Chapter",
-  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text OKAY THEN BOY with some math: only for some values of .  Do this.  And this is the solution.       After the last subsection, you might have a conclusion.   "
+  "body": " Introduction to First Chapter   Intro to section, because we will have subsections.  Another paragraph of the introduction.    A subsection  Content of the subsection.  More content.    Another Subsection  Text OKAY THEN BOY with some math: only for some values of .  Do this.  And this is the solution.     Points in       Points in       Points in         After the last subsection, you might have a conclusion.   "
 },
 {
   "id": "subsec_another-subsection-2-4",
@@ -62,6 +62,33 @@ var ptx_lunr_docs = [
   "number": "1.1.1",
   "title": "",
   "body": "Do this.  And this is the solution.   "
+},
+{
+  "id": "igure-points-in-three-space",
+  "level": "2",
+  "url": "sec_first-intro.html#igure-points-in-three-space",
+  "type": "Figure",
+  "number": "1.1.2",
+  "title": "",
+  "body": " Points in     "
+},
+{
+  "id": "fgure-points-in-three-space",
+  "level": "2",
+  "url": "sec_first-intro.html#fgure-points-in-three-space",
+  "type": "Figure",
+  "number": "1.1.3",
+  "title": "",
+  "body": " Points in     "
+},
+{
+  "id": "figur-points-in-three-space",
+  "level": "2",
+  "url": "sec_first-intro.html#figur-points-in-three-space",
+  "type": "Figure",
+  "number": "1.1.4",
+  "title": "",
+  "body": " Points in     "
 },
 {
   "id": "sec_first-examples",
